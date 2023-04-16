@@ -1,0 +1,31 @@
+.students{
+  border: 1px solid black;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  margin-top: 50px;
+}
+
+table{
+  margin: auto;
+  text-align: center;
+  border-collapse: collapse;
+
+}
+
+th{
+  border-bottom: 1px solid black;
+  background: lightblue;
+  padding: 4px 20px;
+  margin: 40px;
+  font-size: larger;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+
+}
+
+tbody{
+color: black;
+}

@@ -5,12 +5,16 @@ import { AppComponent } from './app.component';
 import { InputComponent } from './Components/input/input.component';
 import { FormsModule } from '@angular/forms';
 import { SlideComponent } from './Components/slide/slide.component';
+import { RegisterComponent } from './Components/Day3/register/register.component';
+import { StudentsComponent } from './Components/Day3/students/students.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InputComponent,
-    SlideComponent
+    SlideComponent,
+    RegisterComponent,
+    StudentsComponent
   ],
   imports: [
     BrowserModule,
