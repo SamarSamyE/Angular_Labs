@@ -22,6 +22,5 @@ export class RegisterComponent {
     this.myEvent.emit(newStudent);
     this.studentAge="";
     this.studentName="";
-
   }
 }

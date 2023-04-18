@@ -1,0 +1,36 @@
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="w-50 m-auto text-center mt-2">Registration</h1>
+      <form (ngSubmit)="add()" [formGroup]="validationForm" class="form">
+        <div class="form-group d-flex mt-2">
+          <label class="col-3" for="nm">Name</label>
+          <input formControlName="name" class="form-control" id="nm" type="text" />
+        </div>
+        <div *ngIf="!NameValid && validationForm.controls['name'].value !== null">
+          <p>Take care, the name length must be more that or equal 3 characters </p>
+        </div>
+        <div class="form-group d-flex mt-2">
+          <label class="col-3" for="ag">Age</label>
+          <input formControlName="age" class="form-control" id="ag" type="number" />
+        </div>
+        <div *ngIf="!AgeValid && validationForm.controls['age'].value !== null">
+          <p>Age must be( 20 &lt; Age &lt; 40 )</p>
+        </div>
+
+        <div class="form-group d-flex mt-2">
+          <label class="col-3" for="email">Email</label>
+          <input formControlName="email" class="form-control" id="email" type="email" />
+        </div>
+        <div *ngIf="!EmailValid && validationForm.controls['email'].value !== null">
+          <p> Please enter a vaild email here</p>
+        </div>
+
+        <div class="form-group text-center mt-2 mb-2">
+          <input class="btn btn-outline-success" id="nm" type="submit" value="Submit" />
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+

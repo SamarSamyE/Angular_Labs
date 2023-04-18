@@ -1,0 +1,13 @@
+div{
+  background-color: #8a8989;
+  height:100px;
+  text-align: center;
+  width:35%;
+  margin: auto;
+}
+
+p{
+  padding-top: 40px;
+  font-size: larger;
+  font-weight: 600;
+}
