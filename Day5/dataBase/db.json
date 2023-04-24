@@ -1,0 +1,67 @@
+{
+  "students": [
+    {
+      "id": 2,
+      "name": "Samir",
+      "age": 23,
+      "email": "samir99@gmail.com",
+      "website": "http://samir.com",
+      "address": "alexandria/louran",
+      "phone": "02222222222222"
+    },
+    {
+      "name": "Saraaaaaaaaa",
+      "age": 27,
+      "email": "sara@gmail.com",
+      "website": "http://sara.com",
+      "address": "alexandria/Raml2",
+      "phone": "03333333333333",
+      "id": 3
+    },
+    {
+      "name": "Ahmed",
+      "age": 23,
+      "email": "ahmed@gmail.com",
+      "website": "http://ahmed.com",
+      "address": "cairo",
+      "phone": "044444444444444",
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "esraa",
+      "age": 24,
+      "email": "esraa@gmail.com",
+      "website": "http://esraa.com",
+      "address": "hurguada",
+      "phone": "055555555555555"
+    },
+    {
+      "id": 6,
+      "name": "nehad",
+      "age": 24,
+      "email": "nehad@gmail.com",
+      "website": "http://nehad.com",
+      "address": "ElMenia",
+      "phone": "066666666666666"
+    },
+    {
+      "name": "Samar",
+      "age": "24",
+      "email": "samar2@gmail.com",
+      "website": "http://samar2.com",
+      "address": "alex",
+      "phone": "01282774479",
+      "id": 9
+    },
+    {
+      "name": "Fatma",
+      "age": "25",
+      "email": "fatma@gmail.com",
+      "website": "fatma.com",
+      "address": "cairo",
+      "phone": "01111117113",
+      "id": 10
+    }
+  ]
+}
